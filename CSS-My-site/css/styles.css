@@ -2,42 +2,91 @@ body {
     margin: 0;
     text-align: center;
     font-family: sans-serif;
+    font-size: 2em;
+
 }
 
 h1 {
+    color: #66BFBF;
     margin-top: 50px;
-    border: solid;
+    margin-bottom: 0px;
     display: inline-block;
+    font-size: 5.625rem;
+    font-family: fantasy;
+    line-height: 2;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    margin-top: auto;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
 }
 
 .top-container {
     background-color: #E4F9F5;
-    border: solid;
     padding-top: 50px;
     position: relative;
 }
 
 
-p{
+p {
     display: block;
-    border: solid;
+    
 }
 
 #mountain {
     position:static;
     margin: auto;
     display: inline-block;
-    border: solid;
+    
 }
 
 #cloud-1 {
     position:absolute;
     margin-left: 20px; 
     display:inline;
-    border: solid
+
 }
 
 #cloud-2 {
     position:absolute;
-    border: solid;
+    left: 300px;
 }
+
+.skill-row {
+    display: inline-block;
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+
+.code-symbol {
+    margin-right: 30px;
+    width: 25%;
+    float: left;
+}
+
+.ml-icon {
+    margin-left: 30px;
+    width: 25%;
+    float: right;
+}
+
+.re-img {
+    margin-right: 30px;
+    width: 25%;
+    float: left;
+}
+
